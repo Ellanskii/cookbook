@@ -17,6 +17,9 @@ export default defineNuxtConfig({
   vueuse: {
     ssrHandlers: true,
   },
+  alias: {
+    // 'vue-query': ['vue-query/esm/'],
+  },
   unocss: {
     uno: true,
     attributify: true,

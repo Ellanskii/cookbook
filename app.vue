@@ -1,4 +1,9 @@
+<script lang="ts" setup>
+// import { VueQueryDevTools } from 'vue-query/devtools';
+</script>
+
 <template>
+  <!-- <VueQueryDevTools /> -->
   <main class="py-20 px-10 text-center">
     <NuxtPage />
     <Footer />
@@ -6,5 +11,5 @@
 </template>
 
 <style>
-@import '~/styles/main.css';
+@import "~/styles/main.css";
 </style>
